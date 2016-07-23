@@ -97,7 +97,7 @@ if openPPPD():
 		if closePPPD():
 			print "closing connection"
 			sleep(1)
-		# The range is how many data points we'll collect befor streaming
+		# The range is how many data points we'll collect before streaming
 		for i in range(10):
 			# Make sure there's a GPS fix
 			if checkForFix():
